@@ -1,11 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 
-import PortfolioButton from './PortfolioButton';
-import Contact from './Contact';
-import Resume from './Resume';
-
-const style = { background: '#0092ff', padding: '8px 0' };
+import PortfolioButton from '../Components/PortfolioButton';
+import Contact from '../Components/Contact';
+import Resume from '../Components/Resume';
 
 function MainContent(){
     return(
@@ -14,7 +12,7 @@ function MainContent(){
                 <Col className="gutter-row" span={{xs: 24, sm:12 }}>
                     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                         <Col className="gutter-row" span={12}>
-                            <img src='img/logo.png' />
+                            <img src='img/logo.png' alt="Logo" />
                         </Col>
                     </Row>
                     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>

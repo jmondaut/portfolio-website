@@ -1,9 +1,11 @@
-import React from 'react';
-import { Menu, Switch } from 'antd'
+import React, { useState } from 'react';
+import { Link, Redirect } from 'react-router-dom';
+import { Switch } from 'antd'
 
 function NavMenu(){
+    const [switchOn, setSwitchOn] = useState(false);
     return(
-        <Switch checkedChildren="Code View" unCheckedChildren="Site View" />
+        <Switch checkedChildren="Code View" unCheckedChildren="Site View" onChange={() => setSwitchOn(!switchOn) }/>
     );
 }
 
