@@ -7,7 +7,7 @@ import { BrowserRouter as Router,
         } from "react-router-dom"
 
 //ANT DESIGN --- UI
-import 'antd/dist/antd.less';
+import 'antd/dist/antd.css';
 import { Layout,
           Switch as AntSwitch } from 'antd';
 
