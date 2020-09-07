@@ -7,7 +7,8 @@ function Contact(){
         <Card title="Contact" bordered={true} >
         <p>Jonathan MONDAUT</p>
         <p><a href="mailto: mondautjonathan@gmail.com">mondautjonathan@gmail.com</a></p>
-        <p>0769320182</p>
+        <p>+33 07 69 32 01 82</p>
+        <p><img src="../img/png-wechat-text-logo.png" alt="Wechat"></img> jmondaut</p>
         </Card>
     </div>
     );

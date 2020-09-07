@@ -17,17 +17,18 @@ import MainContent from '../Views/MainContent'
 
 function MainLayout(){
   const [switchOn, setSwitchOn] = useState(false);
-  
+
   //ANT DESIGN LAYOUT
   const { Header, Content, Footer } = Layout;
   return(
-  <Layout className="layout">
+  <Layout className="layout" >
     <Router>
       <Header>
         <img src="../img/NavLogo.png" alt='JM' className="logo" />
         <AntSwitch checkedChildren="Code View" unCheckedChildren="Site View" onChange={() => setSwitchOn(!switchOn) }/>
         {switchOn ? <Redirect to="/code" /> : <Redirect to="/home" />}
       </Header>
+
       <Content style={{ padding: '0 50px' }}>
       <Switch>
         <Route exact path="/">
