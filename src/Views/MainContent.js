@@ -13,7 +13,7 @@ function MainContent(){
                 <Col className="gutter-row" span={{xs: 24, sm:12 }}>
                     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                         <Col className="gutter-row" span={12}>
-                            <img src='img/logo.png' alt="Logo" />
+                            <img src='img/Logo.png' alt="Logo" />
                         </Col>
                     </Row>
                     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
