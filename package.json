@@ -18,8 +18,6 @@
     "react-spring": "^8.0.27"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -39,6 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://jmondaut.github.io/portfolio-website/"
+  }
 }
