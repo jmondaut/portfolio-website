@@ -20,7 +20,8 @@
     "react-spring": "^8.0.27"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "node server.js",
+    "devstart": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
